@@ -1,0 +1,25 @@
+{
+  "Author": "Lathanor",
+  "CodePath": "recklessrp-status.exe",
+  "Description": "Affiche le statut et le nombre de joueurs du serveur Reckless RP.",
+  "Name": "Lathanor Reckless RP Status",
+  "Icon": "imgs/plugin",
+  "URL": "",
+  "Version": "1.6.0",
+  "SDKVersion": 2,
+  "Software": { "MinimumVersion": "6.0" },
+  "OS": [ { "Platform": "windows", "MinimumVersion": "10" } ],
+  "Actions": [
+    {
+      "Icon": "imgs/action",
+      "Name": "Reckless RP Status Auto",
+      "States": [
+        { "Image": "imgs/offline", "Title": "" },
+        { "Image": "imgs/online", "Title": "" }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Statut Reckless RP - refresh toutes les 3 secondes.",
+      "UUID": "com.lathanor.recklessrp.status.action"
+    }
+  ]
+}
