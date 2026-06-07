@@ -1,24 +1,7 @@
-Lathanor Reckless RP Status - Stream Deck Plugin
+# Lathanor Reckless RP Status
 
-Version : 1.6.0
-Créateur : Lathanor
-Serveur : Reckless RP
-Server ID : 3yg6jzb
+## Aperçu
 
-Fonctionnement :
-- Mise à jour toutes les 3 secondes.
-- Vert = serveur en ligne.
-- Rouge = serveur hors ligne.
-- Affiche uniquement le compteur, exemple : 61/400.
-- Utilise plusieurs sources : API Cfx frontend, route RedM, puis endpoint direct actuel 178.208.177.44:30120.
+![Aperçu du plugin](preview.png)
 
-Installation :
-1. Fermer Stream Deck.
-2. Supprimer l'ancien dossier :
-   %appdata%\Elgato\StreamDeck\Plugins\com.lathanor.recklessrp.status.sdPlugin
-3. Copier le dossier com.lathanor.recklessrp.status.sdPlugin dans :
-   %appdata%\Elgato\StreamDeck\Plugins\
-4. Relancer Stream Deck.
-
-Debug :
-logs\recklessrp-status.log
+Plugin Stream Deck permettant d'afficher le statut du serveur Reckless RP.
